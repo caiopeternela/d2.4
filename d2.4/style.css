@@ -1,0 +1,297 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #293651;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.container-texto {
+    margin: 2.5% 0% 0% 10%;
+}
+
+.container-texto>h2 {
+    font-weight: lighter;
+    color: #41bda8;
+}
+
+h3 {
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+.description {
+    color: #5b5e61;
+    width: 70%;
+}
+
+button {
+    color: white;
+    background-color: #00A78E;
+    border: none;
+    padding: 16px 44px 16px 44px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.imagem {
+    margin: 20px 10px 10px 10px;
+    text-align: center;
+}
+
+.container-conteudo {
+    margin: 2.5% 10% 0% 10%;
+}
+
+.why-you-hire-me {
+    margin-bottom: 0;
+    font-size: 34px;
+    font-weight: 600;
+    color: #293651;
+}
+
+.linha-why {
+    margin-top: 5px;
+    width: 315px;
+    float: left;
+    height: 7px;
+    border: none;
+    border-radius: 3px;
+    background-color: #00A78E;
+}
+
+.container-skills {
+    margin: 2%;
+    text-align: center;
+}
+
+progress {
+    border: 0;
+    width: 500px;
+    height: 15px;
+}
+
+progress::-webkit-progress-value {
+    background: #00A78E;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+    background: #e2e4e3;
+    border-radius: 10px;
+}
+
+.progress-percentage {
+    display: inline-block;
+    margin: 5px;
+}
+
+.projetos {
+    padding-top: 10px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: #293651;
+}
+
+.linha-projetos {
+    margin-top: 5px;
+    width: 170px;
+    height: 7px;
+    border: none;
+    border-radius: 3px;
+    background-color: #00A78E;
+}
+
+.section-projetos {
+    text-align: center;
+    background: #293651;
+    background-size: cover;
+}
+
+.projetos {
+    color: white;
+}
+
+.grid-projetos {
+    padding: 50px;
+    width: 900px;
+    margin: auto;
+}
+
+
+.caixa-projetos {
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    font-size: 24px;
+    text-align: left;
+    background-color: white;
+    line-height: 1;
+    padding: 16px;
+    margin: 25px;
+    border-radius: 10px;
+    border: 3px solid #00A78E;
+}
+
+.icon {
+    display: inline-block;
+    background-color: #00A78E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+i {
+    color: white;
+}
+
+.section-contatos {
+    text-align: center;
+    width: 100%;
+    background: #00A78E;
+    background-size: cover;
+}
+
+.caixa-contatos {
+    display: inline-block;
+    width: 735px;
+    height: 300px;
+    font-size: 32px;
+    text-align: left;
+    line-height: 1;
+    color: #293651;
+    background: white;
+    padding: 10px;
+    margin: 5%;
+    border-radius: 10px;
+    border: 3px solid #293651;
+}
+
+.icon-contatos {
+    margin-top: 30px;
+    color: #00A78E;
+}
+
+.contatos {
+    margin-bottom: 5px;
+}
+
+.linha-contatos {
+    margin-top: 5px;
+    width: 155px;
+    float: left;
+    height: 7px;
+    border: none;
+    border-radius: 3px;
+    background-color: #00A78E;
+}
+
+.footer {
+    background-color: #293651;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.caixa-links {
+    display: inline-block;
+    width: 80%;
+    height: 300px;
+    font-size: 32px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1;
+    color: white;
+    padding: 0;
+    box-sizing: content-box;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+.caixa-links>i {
+    padding: 15px;
+}
+
+.email {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.services {
+    text-align: center;
+    word-spacing: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    body {
+        width: 100%;
+        min-width: 425px;
+        overflow-x: hidden;
+    }
+
+    .description {
+        width: 85%;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    .texto-why {
+        margin-right: 5%;
+    }
+
+    .container-skills {
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    progress {
+        width: 80%;
+    }
+
+    .grid-projetos {
+        width: auto;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .caixa-projetos {
+        width: 320px;
+        height: 275px;
+        padding: 10px;
+    }
+
+    .caixa-contatos {
+        width: 325px;
+        height: 280px;
+        padding: 10px;
+    }
+
+    .conteudo-contatos {
+        font-size: 24px;
+    }
+
+    .email {
+        font-size: 24px;
+        padding-top: 10%;
+    }
+
+    .services {
+        padding: 5%;
+        font-size: 30px;
+    }
+
+    .footer {
+        width: 100%;
+        background-size: cover;
+    }
+}
